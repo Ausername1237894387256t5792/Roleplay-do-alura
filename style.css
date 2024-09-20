@@ -1,0 +1,35 @@
+body {
+    background-image:url("https://img.freepik.com/free-photo/dark-style-sky-nighttime_23-2151103577.jpg");
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #4c20c4;
+    color: white;
+    height: 25px;
+    line-height: 5%;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 120%;
+}
+
+img {
+    max-width: 140%;
+}
